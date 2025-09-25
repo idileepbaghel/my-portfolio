@@ -1,6 +1,6 @@
 const skillCategories = {
   Languages: [
-    { name: "Python", icon: "/icons/python.png" },
+    { name: "Python", icon: "/icons/python.svg" },
     { name: "JavaScript", icon: "/icons/javascript.png" },
     { name: "HTML", icon: "/icons/html.png" },
     { name: "CSS", icon: "/icons/css.png" },
