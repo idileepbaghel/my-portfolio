@@ -6,17 +6,20 @@ const skillCategories = {
     { name: "CSS", icon: "/icons/css.png" },
   ],
   Frameworks: [
-    { name: "React", icon: "/icons/react.svg" },
-    { name: "Node.js", icon: "/icons/nodejs.svg" },
+    { name: "ReactJS", icon: "/icons/react.svg" },
+    { name: "NodeJS", icon: "/icons/nodejs.svg" },
+    { name: "NextJS", icon: "/icons/nextjs.svg" },
+    { name: "Flask", icon: "/icons/flask.webp" },
     { name: "TailwindCSS", icon: "/icons/tailwindcss.svg" },
     { name: "BootstrapCSS", icon: "/icons/bootstrap.png" },
   ],
   Databases: [
     { name: "MySQL", icon: "/icons/mysql.svg" },
+    { name: "MongoDB", icon: "/icons/mongodb.svg" },
   ],
   "Dev Tools": [
     { name: "Git", icon: "/icons/git.svg" },
-    { name: "GitHub", icon: "/icons/github.png" },
+    { name: "GitHub", icon: "/icons/github.svg" },
     { name: "Postman", icon: "/icons/postman.png" },
     { name: "Slack", icon: "/icons/slack.png" },
   ],

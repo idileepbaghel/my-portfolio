@@ -2,6 +2,7 @@ import Hero from "../src/components/Hero";
 import About from "../src/components/About";
 import Projects from "../src/components/Project";
 import Skills from "../src/components/Skills";
+import ContactForm from "../src/components/Gmail";
 import Contact from "../src/components/Contact";
 // import Navbar from "./components/Navbar"; 
 
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <ContactForm />
       <Contact />
     </div>
   );
