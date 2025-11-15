@@ -1,7 +1,7 @@
 const projects = [
-  { title: "Portfolio Website", description: "Personal portfolio built with React & Next.js.", link: "#" },
-  { title: "Chat App", description: "Real-time chat application using React & Firebase.", link: "#" },
-  { title: "E-commerce App", description: "Full-stack e-commerce project with Node.js backend.", link: "#" },
+  { title: "AI Powered Post Scheduler", description: "Engineered an AI-driven LinkedIn post scheduling platform using Flask, MySQL, and LinkedIn OAuth 2.0, enabling seamless authentication, post creation, and automated content publishing. Integrated Google Gemini API for intelligent text generation, allowing users to craft day-wise professional posts optimized for engagement.", link: "https://github.com/idileepbaghel/post-schedular" },
+  { title: "NextJS Auth App", description: "Engineered a secure authentication platform using Next.js, NextAuth.js, and JWT, implementing complete user login, registration, and session management with middleware-based route protection and environment variable encryption for sensitive credentials.", link: "https://github.com/idileepbaghel/nextjs-auth" },
+  { title: "Ez-GST: GST Calculator", description: "Built and deployed a full-stack GST Calculator using Python (Flask) with Bootstrap UI, integrating Jinja2 for server-side rendering to deliver responsive and dynamic invoice and tax calculation workflows. Implemented QR code scanning with Python libraries to auto-fetch GST details from invoices, and developed bill generation & printing functionality using dynamic Flask routes and templates. Designed and optimized MySQL relational schemas to handle user transactions, CRUD operations, and tax records, ensuring secure data persistence with parameterized SQL queries to prevent injection attacks.", link: "https://gst-calc.onrender.com/" },
 ];
 
 const Projects = () => (
