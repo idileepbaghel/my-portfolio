@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Tooltip as ReactTooltip } from "react-tooltip";
+import { FaRedditAlien  } from "react-icons/fa";
 // import "react-tooltip/dist/react-tooltip.css";
 
 const Contact = () => (
@@ -21,6 +22,11 @@ const Contact = () => (
         <FaInstagram className="contact-icon" />
       </a>
       <ReactTooltip id="instagram" place="top" content="Instagram" />
+
+      <a data-tooltip-id="reddit" href="https://www.reddit.com/u/Electrical-Nose3837/s/KBOMWPe9J9" target="_blank">
+        <FaRedditAlien className="contact-icon" />
+      </a>
+      <ReactTooltip id="reddit" place="top" content="Reddit" />
     </div>
   </section>
 );
