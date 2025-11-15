@@ -88,7 +88,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="John Doe"
+                placeholder="Enter your name"
                 onChange={handleChange}
                 required
                 style={{
@@ -113,7 +113,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="gmail"
-                placeholder="name@gmail.com"
+                placeholder="Enter your gmail"
                 onChange={handleChange}
                 required
                 style={{
