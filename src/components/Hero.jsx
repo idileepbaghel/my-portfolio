@@ -6,7 +6,7 @@ const Hero = () => (
     <div className="CV">
     <a href="#projects" className="btn btn-primary">View Projects</a>
     <a className="resume"
-        href="/DileepResume.pdf"
+        href="/Dileep_s_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       ><svg
